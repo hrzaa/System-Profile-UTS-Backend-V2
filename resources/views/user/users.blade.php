@@ -37,7 +37,7 @@
                         <th>Foto</th>
                         <th>Name</th>
                         <th>Email</th>
-                        <th>Approved at</th>
+                        {{-- <th>Approved at</th> --}}
                         <th style="width: 8rem">Aksi</th>
                       </tr>
                     </thead>
@@ -48,7 +48,7 @@
                             <td><img src="/img/{{ $user->foto }}" alt="" width="100px"></td>
                             <td>{{ $user->name }}</td>
                             <td>{{ $user->email }}</td>
-                            <td>{{ $user->updated_at }}</td>
+                            {{-- <td>{{ $user->updated_at }}</td> --}}
                             <td>
                                 @if ($user->is_aktif)
                                 {{-- <a href="/detailUser50/{{ $user->id }}" class="btn btn-primary">Detail</a> --}}
